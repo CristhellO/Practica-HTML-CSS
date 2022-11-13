@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica-html</title>
+</head>
+<body>
+    <center>
+        <img src="https://raw.githubusercontent.com/ElevenPaths
+        /FOCA/master/doc/FOCA_White.jpg" 
+        alt="foca">
+    </center>
+        <nav>
+            <div class="dropdown-top">
+                <button class="dropdwn-top-button">Menu</button>
+                <div class="dropdown-top-content">
+            <li>
+                <a href="portafolio" class="nav-link" 
+                id="nav-link-portafolio">portafolio</a>
+            </li>
+            <li>
+                <a href="Interfaz Grafica" class="nav-link" 
+                id="nav-link-Interfaz Grafica">Interfaz Grafica</a>
+            </li>
+            <li>
+                <a href="skrills" class="nav-link"
+                 id="nav-link-skrills">skrills</a>
+            </li>
+            </div>
+        </nav>
+        <header>
+            <h1 class="title">
+                FOCA (Fingerprinting Organizations with Collected Archives) 
+                es una herramienta utilizada principalmente para encontrar 
+                metadatos e información oculta en los documentos
+                que examina.
+            </h1>
+        </header>
+        <hr>
+        <!-- etiqueta cabecera -->
+        <hgroup>
+            <p>FOCA es una herramienta utilizada principalmente para encontrar 
+                metadatos e información oculta en los documentos que escanea. 
+                Estos documentos pueden estar en páginas web, y pueden ser descargados 
+                y analizados con FOCA.
+                Es capaz de analizar una gran variedad de documentos, 
+                siendo los más comunesMicrosoft Office, Open Office 
+                archivos PDF, aunque también analiza archivos Adobe 
+                InDesign o SVG, por ejemplo.
+                
+                Estos documentos se buscan utilizando tres posibles motores
+                de búsqueda: Google, Bing yDuckDuckGo. 
+                La suma de los resultados de los tres motores equivale 
+                a una gran cantidad de documentos. También es posible 
+                agregar archivos locales para extraer la información
+                EXIF de los archivos gráficos, y se realiza un análisis
+                completo de la información descubierta a través de 
+                la URL incluso antes de descargar el archivo.</p>
+        </hgroup>
+        <h3>Estos documentos pueden estar en páginas web, y con FOCA 
+            se pueden descargar y analizar.
+            <!--navegacion interna-->
+            <nav>
+                <h1>registro para el libro</h1>
+                <a href="registro-libro.html"></a>
+                <form action="registro-libro.html" method="post"></form>
+                <div>
+                    <label for="name">Nombre</label>
+                    <input required id="name" type="text" 
+                    placeholder="Añade tu nombre"> 
+                </div>
+                <div><label for="mail">Email</label>
+                    <input id="mail" type="Email" 
+                    placeholder="Añade tu email">
+                </div>
+                <div><label for="password">password</label>
+                    <input id="password" type="password" 
+                    placeholder="Añade tu password">
+                </div>
+                <div>
+                    <label for="phone">phone</label>
+                    <input type="tel" id="phone" name="phone" 
+                    pattern="^@[^\s]+">
+                </div>
+                <input type="submit" value="Enviar">
+                </form>
+                <li>
+                    <a href="https://0xword.com/es/libros/59-pentesting-con-foca.html">libro</a>
+                </li>
+            </nav>
+        </h3>
+        <!--main-->
+        <main>
+            <h1>Interfaz Grafica</h1>
+            <p>La herramienta FOCA nos ofrece un entorno bastante intuitivo y es muy 
+               fácil de usar.Lo primero que vemos al abrir Foca es 
+               la siguiente interfaz gráfica:
+            </p>
+            <img src="https://ciberpatrulla.com/wp-content/uploads/2018/11/image002-e1542285668704.png"
+            alt="Interfaz-Grafica">
+        </main>
+        <div>
+            <!--skills de programacion y progreso de las mismas-->
+            <fieldset>
+              <legend>SKILLS</legend>
+      
+              <label for="LINUX">LINUX</label>
+              <input id="linux" type="range">
+              <hr>
+              <label for="HTML-CSS">HTML-CSS</label>
+              <input id="HTML-CSS" type="range" name="">
+              <hr>
+              <label for="PYTHON">PYTHON</label>
+              <input id="PYTHON" type="range">
+              <hr>
+              <label for="GIT-HUB">GIT-HUB</label>
+              <input id="GIT-HUB" type="range">
+            </fieldset>
+          </div>
+          <hr>
+          <main>
+            <legend>¿como me conociste?</legend>
+            <fieldset>
+                <label for="¿Como me conociste?"></label>
+                <!--### requerido ###-->
+                <input type="radio" name="id"> Universidad
+                <input type="radio" name= "id"> Keepcoding
+                <input type="radio" name= "id"> Colegio
+                <input type="radio" name= "id"> En Git-Hub
+                <hr>
+                <label for="Indica tu tag de Git-Hub"></label>
+            </fieldset>
+            <hr>
+            <fieldset>
+                <label for="Bio">¡Describete!</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <input type="button" value="Guardar">
+          </main>
+          <!--pie de pagina -->
+          <footer class="footer">
+            <a href="image.png">twitter</a>
+          </footer>
+
+</body>
+</html>

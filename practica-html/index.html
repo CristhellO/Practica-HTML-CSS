@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <title>practica-html</title>
+</head>
+<body>
+    <center>
+        <img src="https://raw.githubusercontent.com/ElevenPaths
+        /FOCA/master/doc/FOCA_White.jpg" 
+        alt="foca">
+    </center>
+        <nav>
+            <div class="hide">
+                <i class="fa-solid fa-bars"></i> Menu
+            <ul>
+            <li>
+                <a href="Portafolio" class="nav-enlace" 
+                id="nav-enlace-portafolio">portafolio</a>
+            </li>
+            <li>
+                <a href="Interfaz Grafica" class="nav-link" 
+                id="nav-link-Interfaz Grafica">Interfaz Grafica</a>
+            </li>
+            <li>
+                <a href="Skrills" class="nav-link"
+                 id="nav-link-skrills">skrills</a>
+            </ul>
+            </li>
+            
+        </nav>
+        <header class="header">
+            <div class="container">
+              <h1>
+                FOCA (Fingerprinting Organizations with Collected Archives) 
+                es una herramienta utilizada principalmente para encontrar 
+                metadatos e información oculta en los documentos
+                que examina.
+              </h1>
+            </div>
+        </header>
+        <hr>
+        <!-- etiqueta cabecera -->
+        <hgroup>
+            <p>FOCA es una herramienta utilizada principalmente para encontrar 
+                metadatos e información oculta en los documentos que escanea. 
+                Estos documentos pueden estar en páginas web, y pueden ser descargados 
+                y analizados con FOCA.
+                Es capaz de analizar una gran variedad de documentos, 
+                siendo los más comunesMicrosoft Office, Open Office 
+                archivos PDF, aunque también analiza archivos Adobe 
+                InDesign o SVG, por ejemplo.
+                
+                Estos documentos se buscan utilizando tres posibles motores
+                de búsqueda: Google, Bing yDuckDuckGo. 
+                La suma de los resultados de los tres motores equivale 
+                a una gran cantidad de documentos. También es posible 
+                agregar archivos locales para extraer la información
+                EXIF de los archivos gráficos, y se realiza un análisis
+                completo de la información descubierta a través de 
+                la URL incluso antes de descargar el archivo.</p>
+        </hgroup>
+            <h2>
+              Estos documentos pueden estar en páginas web, y con FOCA 
+              se pueden descargar y analizar.
+            </h2>
+            <hr>
+            <!--navegacion interna-->
+            <nav>
+                <legend>registro para el libro</legend>
+                <form action="registro-libro.html" method="post"></form>
+                <div>
+                    <label for="name">Nombre</label>
+                    <input required id="name" type="text" 
+                    placeholder="Añade tu nombre"> 
+                </div>
+                <div>
+                    <label for="mail">Email</label>
+                    <input id="mail" type="Email" 
+                    placeholder="Añade tu email">
+                </div>
+                <div>
+                    <label for="password">password</label>
+                    <input 
+                    id="password" 
+                    type="password" 
+                    placeholder="Añade tu password">
+                </div>
+                <div>
+                    <label for="phone">phone</label>
+                    <input type="tel" id="phone" name="phone" 
+                    pattern="^@[^\s]+">
+                </div>
+                <input type="submit" value="Enviar">
+                </form>
+                <li>
+                    <a href="https://0xword.com/es/libros/59-pentesting-con-foca.html">libro</a>
+                </li>
+            </nav>
+        </h3>
+        <!--main-->
+        <main>
+          <hr>
+            <h1>Interfaz Grafica</h1>
+            <p>La herramienta FOCA nos ofrece un entorno bastante intuitivo y es muy 
+               fácil de usar.Lo primero que vemos al abrir Foca es 
+               la siguiente interfaz gráfica:
+            </p>
+            <img src="https://ciberpatrulla.com/wp-content/uploads/2018/11/image002-e1542285668704.png"
+            alt="Interfaz-Grafica">
+        </main>
+        <div>
+            <!--skills de programacion y progreso de las mismas-->
+            <fieldset>
+            <legend>SKILLS</legend>
+               <h1>LINUX</h1>
+               <div class="contenedor">
+                <progress value=70 max=100 id="barra" class="barrastyle"></progress>
+               </div>
+            <hr>
+               <h1>HTML-CSS</h1>
+               <div class="contenedor">
+                <progress value=60 max=100></progress>
+            <hr>  
+               <h1>PYTHON</h1>
+               <div class="contenedor">
+                <progress value=80 max=100></progress>            
+           <hr>
+               <h1>GIT-HUB</h1>
+               <div class="contenedor">
+                <progress value=50 max=100></progress>
+            </fieldset>
+          </div>
+          <hr>
+          <main>
+            <legend>¿como me conociste?</legend>
+            <fieldset>
+                <label for="¿Como me conociste?"></label>
+                <!--### requerido ###-->
+                <input type="radio" name="id"> Universidad
+                <input type="radio" name= "id"> Keepcoding
+                <input type="radio" name= "id"> Colegio
+                <input type="radio" name= "id"> En Git-Hub
+                <hr>
+                <label for="Indica tu tag de Git-Hub"></label>
+            </fieldset>
+            <hr>
+            <fieldset>
+                <label for="Bio">¡Describete!</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <input type="button" value="Guardar">
+          </main>
+          <hr>
+          <!--pie de pagina -->
+          <footer>
+            <div class="social-links">
+              <div class="row">
+                <div class="small-6 medium-3 columns text-center mobile-stack">
+                  <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a>
+                </div>
+                <div class="small-6 medium-3 columns text-center mobile-stack">
+                  <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a>
+                </div>
+                <div class="small-6 medium-3 columns text-center mobile-stack">
+                  <a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"></i>Pinterest</a>
+                </div>
+                <div class="small-6 medium-3 columns text-center mobile-stack">
+                  <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
+                </div>
+              </div>
+            </div>
+            </footer>
+</body>
+</html>
+
